@@ -1,0 +1,7 @@
+D:\AutofacInjectDemo\E2\bin\Debug\E2.dll
+D:\AutofacInjectDemo\E2\bin\Debug\E2.pdb
+D:\AutofacInjectDemo\E2\bin\Debug\IMo.dll
+D:\AutofacInjectDemo\E2\bin\Debug\IMo.pdb
+D:\AutofacInjectDemo\E2\obj\Debug\E2.csprojResolveAssemblyReference.cache
+D:\AutofacInjectDemo\E2\obj\Debug\E2.dll
+D:\AutofacInjectDemo\E2\obj\Debug\E2.pdb

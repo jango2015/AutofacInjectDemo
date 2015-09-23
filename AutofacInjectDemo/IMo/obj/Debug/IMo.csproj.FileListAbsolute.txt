@@ -1,0 +1,4 @@
+D:\AutofacInjectDemo\IMo\bin\Debug\IMo.dll
+D:\AutofacInjectDemo\IMo\bin\Debug\IMo.pdb
+D:\AutofacInjectDemo\IMo\obj\Debug\IMo.dll
+D:\AutofacInjectDemo\IMo\obj\Debug\IMo.pdb

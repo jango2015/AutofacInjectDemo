@@ -1,0 +1,12 @@
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\AutofacInjectDemo.exe.config
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\AutofacInjectDemo.exe
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\AutofacInjectDemo.pdb
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\Autofac.Configuration.dll
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\Autofac.dll
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\IMo.dll
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\IMo.pdb
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\Autofac.xml
+D:\AutofacInjectDemo\AutofacInjectDemo\bin\Debug\Autofac.Configuration.xml
+D:\AutofacInjectDemo\AutofacInjectDemo\obj\Debug\AutofacInjectDemo.csprojResolveAssemblyReference.cache
+D:\AutofacInjectDemo\AutofacInjectDemo\obj\Debug\AutofacInjectDemo.exe
+D:\AutofacInjectDemo\AutofacInjectDemo\obj\Debug\AutofacInjectDemo.pdb
