@@ -23,10 +23,10 @@ namespace AutofacInjectDemo
 
             //==autofac register process==
             var builder = new ContainerBuilder();
-            //foreach (var ass in assList)
-            //{
-            //    builder.RegisterAssemblyTypes(ass).Where(t => t.Name.StartsWith("E")).AsImplementedInterfaces();
-            //}
+            foreach (var ass in assList)
+            {
+                builder.RegisterAssemblyTypes(ass).Where(t => t.Name.StartsWith("E")).AsImplementedInterfaces();
+            }
 
             //==為了要實作命令設計模式，動態載入的Plugin，要透過以下程式碼給一個名稱，名稱就是類別名稱==
 
@@ -34,7 +34,7 @@ namespace AutofacInjectDemo
             //builder.RegisterAssemblyTypes(assList.ToArray())
             //    .Where(t => t.IsAssignableTo<IEMoudle>())
             //    .AsImplementedInterfaces();
-            builder.RegisterAssemblyTypes(assList.ToArray()).Where(t => t.IsAssignableTo<IEMoudle>()).AsImplementedInterfaces();
+            //builder.RegisterAssemblyTypes(assList.ToArray()).Where(t => t.IsAssignableTo<IEMoudle>()).AsImplementedInterfaces();
             builder.RegisterType<IEMoudle>();
 
 
@@ -56,8 +56,8 @@ namespace AutofacInjectDemo
 
                 foreach (var eName in arrEModulesProcessName)
                 {
-
-                    var eModule = container.ResolveNamed<IEMoudle>(eName);
+                    var a = container.IsRegistered<IEMoudle>();
+                    var eModule = container.ResolveKeyed<IEMoudle>(eName);
 
                     eModule.SaySomething();
 
